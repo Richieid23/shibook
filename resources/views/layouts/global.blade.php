@@ -46,7 +46,7 @@
                 </button>
             @endif
             <div class="dropdown-menu dropdown-menu-right" id="navbar-dropdown">
-                <a href="#" class="dropsown-item">Profile</a>
+                <a href="#" class="dropdown-item">Profile</a>
                 <a href="#" class="dropdown-item">Setting</a>
                 <div class="dropdown-divider"></div>
                 <li>
@@ -67,7 +67,7 @@
                 <ul class="polished-sidebar-menu ml-0 pt-4 p-0 d-md-block">
                     <input class="border-dark form-control d-block d-md-none mb-4" type="text" placeholder="Search" aria-label="Search">
                     <li>
-                        <a href="/home">
+                        <a href="{{ route('home') }}">
                             <span class="oi oi-home"></span>
                             Home
                         </a>

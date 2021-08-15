@@ -72,6 +72,12 @@
                             Home
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('users.index') }}">
+                            <span class="oi oi-people"></span>
+                            Manage User
+                        </a>
+                    </li>
                     <div class="d-block d-md-none">
                         <div class="dropdown-divider"></div>
                         <li>

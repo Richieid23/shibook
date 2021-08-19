@@ -19,4 +19,9 @@ class Category extends Model
         'updated_by',
         'deleted_by'
     ];
+
+    public function books()
+    {
+        return $this->belongsToMany(Book::class);
+    }
 }
